@@ -72,7 +72,7 @@ print(thiset)
 print(thislist)
 thiset.update(thislist)
 print(thiset)"""
-
+"""
 thisdict = {
     "brand" : "Ford",
     "model" : "Mustang",
@@ -86,4 +86,35 @@ for x in thisdict.items():
     print(x)
 
 
+
+myfamily = [
+    {
+        "Name": "Ali",
+        "Age": 19
+    },
+    {
+        "Name": "Alex",
+        "Age": 19
+    },
+    {
+        "Name": "Bob",
+        "Age": 19
+    }
+]
+
+for person in myfamily:
+    print(person)
+
+for personName in myfamily:
+    print(personName["Name"])
+    """
+
+"""a = 22
+b = 21
+if a > b:
+    print("a is greater than b")
+    if a > 10:
+        print("a is greater than 10")
+    else:
+        print("a is less than 10")"""
 
