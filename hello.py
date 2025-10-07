@@ -118,3 +118,48 @@ if a > b:
     else:
         print("a is less than 10")"""
 
+"""day = 4
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case 4:
+        print("Thursday")
+    case 5:
+        print("Friday")
+    case 6:
+        print("Saturday")
+    case 7:
+        print("Sunday")"""
+
+
+
+"""i = 1
+while i < 6:
+    print(i)
+    i = i + 1"""
+
+"""j = 1
+while j < 6:
+    print(j)
+    if(j == 3):
+        break
+    j = j + 1"""
+
+"""i = 0
+while i <= 6:
+    i = i + 1
+    if i == 3:
+        continue
+    print(i)"""
+
+
+i = 0
+while i <= 6:
+    print(i)
+    i = i + 1
+else:
+    print("i is no longer less than 6")
