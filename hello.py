@@ -177,3 +177,7 @@ for x in fruits:
 
 """for x in [1,2,3,4,5]:
     pass"""
+
+
+for x in range(3):
+    print(x)
