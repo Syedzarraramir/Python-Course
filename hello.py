@@ -157,9 +157,23 @@ while i <= 6:
     print(i)"""
 
 
-i = 0
+"""i = 0
 while i <= 6:
     print(i)
     i = i + 1
 else:
-    print("i is no longer less than 6")
+    print("i is no longer less than 6")"""
+
+
+"""for x in range(2 , 30 , 6 ):
+    print(x)"""
+
+
+"""colors = ["red", "blue", "green", "yellow", "purple"]
+fruits = ["apple", "banana", "mango", "pineapple"]
+for x in fruits:
+    for y in colors:
+        print(x,y)"""
+
+"""for x in [1,2,3,4,5]:
+    pass"""
