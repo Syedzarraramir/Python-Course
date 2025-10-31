@@ -179,5 +179,28 @@ for x in fruits:
     pass"""
 
 
-for x in range(3):
-    print(x)
+"""for x in range(3):
+    print(x)"""
+
+"""def myfunction():
+    print("this is myfunction")
+
+myfunction()"""
+
+"""def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")"""
+
+def my_brother(*brothers):
+    for brother in brothers:
+        if brother == "Muhammad":
+            last_name = "Hashir"
+        else:
+            last_name = "Amir"
+        print("Syed " + brother + " " + last_name)
+
+my_brother("Umair", "Shahbaz", "Hunzalah", "Muhammad")
+
